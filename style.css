@@ -9,10 +9,14 @@ body {
 }
 
 header {
+    padding: 8px 24px;
     background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 24px;
 }
 
 header img {
@@ -65,8 +69,8 @@ header a:hover {
 .dots span {
     display: block;
     background-color: #ebebeb;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -114,8 +118,8 @@ header a:hover {
 }
 
 .history {
-    margin: 64px 0 400px;
-    padding: 92px 24px;
+    margin: 64px 0 0;
+    padding: 92px 24px 0;
     background-color: #111111;
     color: #ebebeb;
     border-top: 4px solid #f13239;
@@ -156,10 +160,25 @@ header a:hover {
 
 .history a {
     color: #f13239;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .history a:hover {
     color: #ebebeb;  
 }
 
+footer{
+    padding: 64px 24px;
+    background-color: #111111;
+    color: #ebebeb;
+    text-align: center;
+}
+
+footer a{
+    color: #f13239;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    color: #ebebeb;
+}
